@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+  background: url("./background-blue.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -10,8 +10,9 @@ body {
 
 #bands {
   list-style: inside square;
-  font-size: 20px;
-  background: white;
+  font-size: 16px;
+  background: #00978b;
+  color: #d3e8f2;
   width: 500px;
   margin: auto;
   padding: 0;
@@ -20,7 +21,7 @@ body {
 
 #bands li {
   border-bottom: 1px solid #efefef;
-  padding: 20px;
+  padding: 15px;
 }
 
 #bands li:last-child {
